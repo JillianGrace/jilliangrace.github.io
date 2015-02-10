@@ -1,0 +1,8 @@
+body {
+	background-color: #F5F5F5;
+}
+
+h1, h2, h3 {color: #880000;}
+h1, h2 {text-align: center;}
+h1, h2 {font-family: "monospace", courier, serif;}
+h1, h2 {letter-spacing:5px;}
