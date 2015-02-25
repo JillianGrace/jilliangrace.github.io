@@ -1,8 +1,72 @@
-body {
-	background-color: #F5F5F5;
+body{font-family: helvetica;
+	 text-align:center;
+background-color:#FFFFFF;
+background-image: url(atomic.jpg);
+margin:15px;
+padding:15px;
+border:15px;
+line-height:20px;}
+
+h1{
+	color:#6DC5E7;
+font-size:40px;
 }
 
-h1, h2, h3 {color: #880000;}
-h1, h2 {text-align: center;}
-h1, h2 {font-family: "monospace", courier, serif;}
-h1, h2 {letter-spacing:5px;}
+p 
+{color: #65171A;
+text-align: center;
+font-family: helvetica;
+text-transform: uppercase;
+letter-spacing:5px;
+}
+#slogan {font-style: italic;}
+
+
+ul{color: #FAD161;
+text-align: left;
+text-indent: 40%;
+font-family: helvetica;
+text-transform: uppercase;
+letter-spacing:5px;
+padding-left:0;   
+}
+ul li  {
+ list-style-position:inside
+}
+
+{font-style:;}
+{font-weight:;}
+{text-transform:;}
+{line-height:20px;}
+{margin:15px;}
+{padding:15px;}
+{border:15px;}
+
+div {
+  width: 90%;
+  height: 80px;
+  display: block;
+  position: relative;
+  border: 2px solid #6DC5E7;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+div:after {
+  background: url(atomic.jpg);
+  opacity: 0.25;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+
+
+a {color: #DA5016;
+text-align: center;
+font-family: helvetica;
+text-transform: uppercase;
+letter-spacing:5px;}
