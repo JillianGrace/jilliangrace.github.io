@@ -1,7 +1,12 @@
+html { 
+  background: url(images/atomic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{font-family: helvetica;
-	 text-align:center;
-background-color:#FFFFFF;
-background-image: url(atomic.jpg);
+	 text-align:center;;
 margin:15px;
 padding:15px;
 border:15px;
@@ -24,7 +29,7 @@ letter-spacing:5px;
 
 ul{color: #FAD161;
 text-align: left;
-text-indent: 40%;
+text-indent: 45%;
 font-family: helvetica;
 text-transform: uppercase;
 letter-spacing:5px;
@@ -34,14 +39,6 @@ ul li  {
  list-style-position:inside
 }
 
-{font-style:;}
-{font-weight:;}
-{text-transform:;}
-{line-height:20px;}
-{margin:15px;}
-{padding:15px;}
-{border:15px;}
-
 div {
   width: 90%;
   height: 80px;
@@ -50,6 +47,8 @@ div {
   border: 2px solid #6DC5E7;
   margin: 20px auto;
   padding: 10px;
+  background: #FFFFFF
+  line-height:10px;
 }
 
 div:after {
