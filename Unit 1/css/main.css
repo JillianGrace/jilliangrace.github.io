@@ -1,0 +1,17 @@
+body { background-color: #000000;
+}
+div {
+  width:1400px;
+  height:150px;
+  border:2px solid black;
+  display:inline-block;
+  margin:1px}
+#hex{background:#FFAF9D;}
+#textiles{color:#AA7499;}
+#tees{color:#48819D;}
+#blog{color:#47C2AA;}
+#shop{color:#FFC2AA;}
+h1, h2, h3 {color: #9DA2FF;}
+h1, h2 {text-align: center;}
+h1, h2 {font-family: "monospace", courier, serif;}
+h1, h2 {letter-spacing:5px;}

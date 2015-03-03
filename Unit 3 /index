@@ -6,22 +6,29 @@
 </head>
 <body>
 
-<h1> JILLIAN GRACE </h1>
-
-<!-- <img src="images/atomic.jpg"> -->
-
-</body>
-
-<h2 id"slogan">atomic design</h2>
-
-<div><p>We create objects which are specially designed to pass from our minds to your hands and hearts. Unique and limited in production, each item is designed to be treasured and trashed at your own peril. <p/></div>
-
-<p>Our range includes:</p>
+<div id="menu">
 <ul>
 <li>prints</li>
 <li>tees</li>
 <li>fabric</li>
-<li>accessories</li>
+<li>objects</li>
+<li>contact</li>
 </ul>
+</div>
+
+<div id="title"><h1> JILLIAN GRACE </h1></div>
+
+<div><h2 id="slogan">atomic design</h2></div>
+
+<div id="about"><p>We create objects which are specially designed to pass from our minds to your hands and hearts. Unique and limited in production, each item is designed to be treasured and trashed at your own peril. <p/></div>
+
+<div id="prints"><h1> PRINTS </h1></div>
+<div id="tees"><h1> TEES </h1></div>
+<div id="fabrics"><h1> FABRICS </h1></div>
+<div id="objects"><h1> OBJECTS </h1></div>
+
+</body>
+
+
 <a href="mailto:jilliangracevk@gmail.com?subject=hello, jillian">Contact Us</a>
 </html>
