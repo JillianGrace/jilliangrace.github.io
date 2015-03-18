@@ -2,35 +2,30 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Fugaz+One);
 html { 
-  background: url(images/atomic.jpg) no-repeat center center fixed; 
+/*  background: url(images/atomic.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
-body{font-family: helvetica;
+body{background-color: #000000;
+  font-family: helvetica;
 	text-align:center;;
   margin:15px;
   padding:15px;
 /*  border:15px;*/
   line-height:20px;}
 
+section {
+  height: 100vh;
+}
+
 h1{
   font-family: 'Fugaz One', serif;
 	color:#FFFFFF;
-  font-size:80px;
+  font-size:100px;
 }
-#menu {
-  width: 10%;
-/*  height: 125x;*/
-  display: block;
-  position: relative;
-  /*border: 2px solid #6DC5E7;*/
-  margin: 1% auto auto 90%;
-  padding: 0px auto 40px auto;
-  /*background: #FFFFFF;*/
-  /*line-height:10px;*/
-}
+
 p {
   color: #FFFFFF;
   text-align: center;
@@ -50,14 +45,25 @@ ul{
   font-family: helvetica;
   text-transform: uppercase;
   letter-spacing:5px;
-  padding-left:0;   
+  padding-left:0;
+  position: fixed;   
 }
 ul li  {
   text-align: right;
   list-style-position:inside;
   list-style-type:none;
 }
-
+#menu {
+  width: 10%;
+/*  height: 125x;*/
+  display: block;
+  position: relative;
+  /*border: 2px solid #6DC5E7;*/
+  margin: 1% auto auto 90%;
+  padding: 0px auto 40px auto;
+  /*background: #FFFFFF;*/
+  /*line-height:10px;*/
+}
 #title {
   width: 60%;
   height: 40px%;

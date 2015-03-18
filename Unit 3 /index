@@ -5,27 +5,34 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css"
 </head>
 <body>
-
-<div id="menu">
-<ul>
-<li>prints</li>
-<li>tees</li>
-<li>fabric</li>
-<li>objects</li>
-<li>contact</li>
-</ul>
-</div>
-
+<header>
+<nav id="menu">
+	<ul>
+		<li> <a href="#prints"></a>prints</li>
+		<li> <a href="#tees"></a>tees</li>
+		<li> <a href="#fabrics"></a>fabrics</li>
+		<li> <a href="#objects"></a>objects</li>
+		<li> <a href="#contact"></a>contact</li>
+	</ul>
+</nav>
+</header>
 <div id="title"><h1> JILLIAN GRACE </h1></div>
 
 <div><h2 id="slogan">atomic design</h2></div>
 
 <div id="about"><p>We create objects which are specially designed to pass from our minds to your hands and hearts. Unique and limited in production, each item is designed to be treasured and trashed at your own peril. <p/></div>
-
+<section>
 <div id="prints"><h1> PRINTS </h1></div>
+</section>
+<section>
 <div id="tees"><h1> TEES </h1></div>
+</section>
+<section>
 <div id="fabrics"><h1> FABRICS </h1></div>
+</section>
+<section>
 <div id="objects"><h1> OBJECTS </h1></div>
+</section>
 
 </body>
 
